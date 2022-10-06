@@ -1,0 +1,27 @@
+body {
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.rectangle-container {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(19, 129, 129);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: transform(-50%, -50%);
+    border-radius: 8px;
+}
+
+.resize-button {
+    border-radius: 8px;
+    color: #fff;
+    background-color: #0e0e29;
+    width: 56px;
+    height: 48px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
